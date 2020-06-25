@@ -52,7 +52,9 @@ const Item = ({
   onClick,
 }) => (
   <Button onClick={onClick}> 
-    <Icon completed={completed}>{completed && <>&#10003;</>}</Icon>
+    <div>
+      <Icon completed={completed}>{completed && <>&#10003;</>}</Icon>
+    </div>
     <Label completed={completed}>{text}</Label>
   </Button>
 );

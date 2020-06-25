@@ -9,9 +9,16 @@ const Container = styled.div`
   max-width: 500px;
   margin: 100px auto;
   background: white;
-  border-radius: 24px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
-  padding: 36px;
+  margin: 24px;
+  padding: 24px;
+  border-radius: 4px;
+
+  @media screen and (min-width: 1024px) {
+    margin: 100px auto;
+    padding: 36px;
+    border-radius: 24px;
+  }
 `;
 
 function App() {
