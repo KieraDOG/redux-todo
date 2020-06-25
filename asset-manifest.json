@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/redux-todo/static/css/main.2876dd84.chunk.css",
-    "main.js": "/redux-todo/static/js/main.420d38e5.chunk.js",
-    "main.js.map": "/redux-todo/static/js/main.420d38e5.chunk.js.map",
+    "main.js": "/redux-todo/static/js/main.5d979d6b.chunk.js",
+    "main.js.map": "/redux-todo/static/js/main.5d979d6b.chunk.js.map",
     "runtime-main.js": "/redux-todo/static/js/runtime-main.140b26e7.js",
     "runtime-main.js.map": "/redux-todo/static/js/runtime-main.140b26e7.js.map",
     "static/js/2.a42334a3.chunk.js": "/redux-todo/static/js/2.a42334a3.chunk.js",
     "static/js/2.a42334a3.chunk.js.map": "/redux-todo/static/js/2.a42334a3.chunk.js.map",
     "index.html": "/redux-todo/index.html",
-    "precache-manifest.eec8537c23d5784b621dbfe253f926ef.js": "/redux-todo/precache-manifest.eec8537c23d5784b621dbfe253f926ef.js",
+    "precache-manifest.cbfd3cb818abc76b908daec43ae54a9f.js": "/redux-todo/precache-manifest.cbfd3cb818abc76b908daec43ae54a9f.js",
     "service-worker.js": "/redux-todo/service-worker.js",
     "static/css/main.2876dd84.chunk.css.map": "/redux-todo/static/css/main.2876dd84.chunk.css.map",
     "static/js/2.a42334a3.chunk.js.LICENSE.txt": "/redux-todo/static/js/2.a42334a3.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.140b26e7.js",
     "static/js/2.a42334a3.chunk.js",
     "static/css/main.2876dd84.chunk.css",
-    "static/js/main.420d38e5.chunk.js"
+    "static/js/main.5d979d6b.chunk.js"
   ]
 }
