@@ -1,25 +1,27 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import styled from 'styled-components';
+import ItemList from './components/ItemList';
+import DateTimeHeader from './components/DateTimeHeader';
+import FilterHeader from './components/FilterHeader';
+import AddItem from './components/AddItem';
+
+const Container = styled.div`
+  max-width: 500px;
+  margin: 100px auto;
+  background: white;
+  border-radius: 24px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  padding: 36px;
+`;
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Container>
+      <DateTimeHeader />
+      <FilterHeader />
+      <ItemList />
+      <AddItem />
+    </Container>
   );
 }
 
