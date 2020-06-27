@@ -7,12 +7,14 @@ const Container = styled.div`
   margin-top: 36px;
 `;
 
-const Button = styled.button`
+const Toggle = styled.button`
+  display: block;
   outline: 0;
   border: 0;
+  padding: 0;
   cursor: pointer;
   background: transparent;
-  font-size: 2.25rem;
+  font-size: 2.5rem;
   width: 60px;
   height: 60px;
   border-radius: 100%;
@@ -30,6 +32,7 @@ const Button = styled.button`
 
 const Input = styled.input`
   border: 1px solid rgba(0, 0, 0, 0.1);
+  -webkit-appearance: none;
   outline: 0;
   background: white;
   width: 100%;
@@ -41,17 +44,13 @@ const Input = styled.input`
 `;
 
 const Form = styled.form`
-  position: relative;
+  display: flex;
 `;
 
 const Submit = styled.button`
-  position: absolute;
-  right: 0;
-  top: 0;
-  bottom: 0;
+  margin-left: 16px;
   display: flex;
-  border-top-right-radius: 4px;
-  border-bottom-right-radius: 4px;
+  border-radius: 4px;
   justify-content: center;
   align-items: center;
   outline: 0;
@@ -78,7 +77,7 @@ class AddItem extends React.Component {
     super(props);
 
     this.state = {
-      showInput: false,
+      showInput: true,
       value: '',
     };
 
@@ -126,7 +125,7 @@ class AddItem extends React.Component {
             <Submit disabled={!value} type="submit">Add</Submit>
           </Form>
         ): (
-          <Button onClick={this.toggleShowInput}>+</Button>
+          <Toggle onClick={this.toggleShowInput}>+</Toggle>
         )}
       </Container>
     );
